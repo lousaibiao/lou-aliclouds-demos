@@ -18,6 +18,7 @@
         <openfeign.version>2.1.2.RELEASE</openfeign.version>
         <nacos.discovery.version>0.9.0.RELEASE</nacos.discovery.version>
         <nacos.config.version>2.1.0.RELEASE</nacos.config.version>
+        <sentinel.version>0.9.0.RELEASE</sentinel.version>
         <springboot.version>2.1.7.RELEASE</springboot.version>
     </properties>
     <parent>
@@ -49,6 +50,13 @@
                 <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
                 <version>${nacos.config.version}</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/org.springframework.cloud/spring-cloud-starter-alibaba-sentinel -->
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-alibaba-sentinel</artifactId>
+                <version>${sentinel.version}</version>
+            </dependency>
+
 
         </dependencies>
     </dependencyManagement>
