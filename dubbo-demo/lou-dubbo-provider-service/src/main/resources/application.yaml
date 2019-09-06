@@ -1,0 +1,18 @@
+dubbo:
+  registry:
+    address: nacos://localhost:8848
+  scan:
+    base-packages: com.lou.dubbo.provider.service.impl
+  protocol:
+    name: dubbo
+    port: -1
+  application:
+    logger: log4j2
+    version: 1.0.0
+server:
+  port: 8090
+spring:
+  application:
+    name: dubbo-provider-service
+
+
