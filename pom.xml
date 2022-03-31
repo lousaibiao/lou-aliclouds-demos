@@ -20,7 +20,7 @@
         <nacos.discovery.version>0.9.0.RELEASE</nacos.discovery.version>
         <nacos.config.version>2.1.0.RELEASE</nacos.config.version>
         <sentinel.version>0.9.0.RELEASE</sentinel.version>
-        <springboot.version>2.1.7.RELEASE</springboot.version>
+        <springboot.version>2.5.12</springboot.version>
     </properties>
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>
